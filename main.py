@@ -1,4 +1,5 @@
-from scraper import get_links, scrape_article     
+from scraper import get_links, scrape_article
+from hash import HashTable   
 
 def main():
 
@@ -9,7 +10,7 @@ def main():
         page_data = scrape_article(link)
         data.append(page_data)
 
-    print(data[0]["content"][0])
+    
 
 if __name__ == "__main__":
     main()
