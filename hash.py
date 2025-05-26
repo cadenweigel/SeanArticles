@@ -1,5 +1,5 @@
 class HashTable:
-    def __init__(self, size=100):
+    def __init__(self, size=5000):
         self.size = size
         self.table = [[] for _ in range(self.size)]
 
